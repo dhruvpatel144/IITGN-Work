@@ -1,0 +1,3 @@
+Root Mean Squared Error: 66.55
+MAE: 13.71
+Gradient boosted for regressor is similar to the Adaboost technique. The difference is we can have height to be greater than 1 in this case. Moreover instead of predicting on the true y values we try to fit our model on the residual values  = ytrue - y_hat(from previous learnt tree). We update the weights after each iteration in Adaboost, here is much more simpler, we just have a learning rate alpha for each subsequent learnt tree. 

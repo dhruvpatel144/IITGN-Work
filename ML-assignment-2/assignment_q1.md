@@ -1,0 +1,2 @@
+We have used the inbuilt sklearn tree. The plot for the bias-variance trade-off is stored in figures/Q1_Fig1.
+The values have been normalised for both bias and variance so that they are on the same y_range. Both the bias and variance have been evaluated on the Test data and the tree has been trained on the training data for a given depth.
